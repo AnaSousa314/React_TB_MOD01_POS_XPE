@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div id="errors"></div>
+  <form>
+    <label>Name: <input name="name" /></label>
+    
+    <label
+      >Marcas:
+      <select name="brand" id="brand">
+        <option value="">Selecione</option>  
+      </select
+    ></label>
+    <label
+      >Tipo:
+      <select name="product_type"></select
+    ></label>
+    <label
+      >Ordenação:
+      <select name="ordenation" id="ordenation">
+        <option value="" selected>Selecione</option>
+        <option value="melhor" name="melhor">Melhor Avaliados</option>  
+        <option value="menor" name="menor">Menor Preço</option>
+        <option value="maior" name="maior">Maior Preço</option>
+        <option value="a">A-Z</option>
+        <option value="z">Z-A</option>
+      </select
+    ></label>
+    
+  </form>
+  <div>
+    <ul></ul>
+  </div>
+  <script src="http.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
